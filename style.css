@@ -40,7 +40,7 @@ Text Domain:  twentythirteen
 
 :root {
     --theme-primary: #dfa974;
-	--primary-font: "Roboto", serif;
+    --primary-font: "Roboto", serif;
 }
 
 html,
@@ -94,7 +94,7 @@ p {
     font-weight: 400;
     line-height: 26px;
     margin: 0 0 15px 0;
-	word-spacing: 2px;
+    word-spacing: 2px;
 }
 
 input:focus,
@@ -344,7 +344,7 @@ ol {
     font-size: 16px;
     color: #19191a;
     font-weight: 500;
-    padding: 14px 0 12px;
+    padding: 14px 0px 12px 14px;
     margin-right: 64px;
     position: relative;
 }
@@ -357,6 +357,11 @@ ol {
     height: 100%;
     background: #e5e5e5;
     content: "";
+}
+
+.top-nav .tn-left li:first-child {
+    margin-right: 0;
+    padding-left: 0;
 }
 
 .top-nav .tn-left li:last-child {
@@ -608,7 +613,8 @@ ol {
 .nav-menu li:hover>a,
 .nav-menu li a:hover,
 .nav-menu li:focus>a,
-.nav-menu li a:focus {
+.nav-menu li a:focus,
+.menu-item .nav-menu .mainmenu li.current-menu-item {
     background-color: transparent;
     border: 0px;
     outline: none;
@@ -2817,7 +2823,7 @@ ol {
 .entry-content.container h4,
 .entry-content.container h5,
 .entry-content.container h6 {
-	margin: 7px 0 9px;
+    margin: 7px 0 9px;
 }
 
 .entry-content.container p {

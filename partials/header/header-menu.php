@@ -44,13 +44,13 @@
     <div class="top-nav">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-7">
                     <ul class="tn-left">
                         <li><i class="fa fa-phone"></i> <?php echo do_shortcode('[theme_option name="contact_phone"]') ?></li>
                         <li><i class="fa fa-envelope"></i> <?php echo do_shortcode('[theme_option name="support_email"]') ?></li>
                     </ul>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-5">
                     <div class="tn-right">
                         <div class="top-social">
                             <a href="#"><i class="fa fa-facebook"></i></a>

@@ -1,13 +1,10 @@
 <?php
-require_once(__DIR__ . '/inc/post-types/index.php');
 require_once(__DIR__ . '/inc/bs-theme/bootstrap.php');
-
 
 function my_theme_enqueue_styles()
 {
-    $parent_style = 'twentythirteen-style'; // This is 'parent-style' for the Twenty Seventeen theme.
-//     wp_enqueue_style($parent_style, get_template_directory_uri() . '/style.css');
-
+    wp_dequeue_script('twentythirteen-style');
+    wp_deregister_script('twentythirteen-style');
 
     $styleToAdd = [
         'bootstrap.min' => ['file' => 'bootstrap.min.css', 'version' => 'v4.4.1'],
@@ -25,16 +22,16 @@ function my_theme_enqueue_styles()
         wp_enqueue_style(
             $key,
             get_stylesheet_directory_uri() . '/assets/css/' . $row['file'],
-            array($parent_style),
+            array(),
             $row['version'] ?? wp_get_theme()->get('Version')
         );
     }
 
     /* child theme style */
     wp_enqueue_style(
-        'child-style',
+        'btg-theme',
         get_stylesheet_directory_uri() . '/style.css',
-        array($parent_style),
+        array(),
         wp_get_theme()->get('Version')
     );
 
@@ -99,8 +96,8 @@ add_action('widgets_init', 'tg_widgets_init');
  */
 function getThemeLogoUrl()
 {
-    $custom_logo_id = get_theme_mod( 'custom_logo' );
-    $image = wp_get_attachment_image_src( $custom_logo_id , 'full' );
+    $custom_logo_id = get_theme_mod('custom_logo');
+    $image = wp_get_attachment_image_src($custom_logo_id, 'full');
     return $image[0];
 }
 add_shortcode('theme_logo', 'getThemeLogoUrl');

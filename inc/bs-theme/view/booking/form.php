@@ -1,14 +1,14 @@
 <div class="booking-form">
     <h3>Booking Your Hotel</h3>
-    <form action="#">
+    <form name="book_hotel" action="#">
         <div class="check-date">
             <label for="date-in">Check In:</label>
-            <input type="text" class="date-input hasDatepicker" id="date-in">
+            <input type="text" class="date-input" id="date-in">
             <i class="icon_calendar"></i>
         </div>
         <div class="check-date">
             <label for="date-out">Check Out:</label>
-            <input type="text" class="date-input hasDatepicker" id="date-out">
+            <input type="text" class="date-input" id="date-out">
             <i class="icon_calendar"></i>
         </div>
         <div class="select-option">
@@ -40,3 +40,9 @@
         <button type="submit">Check Availability</button>
     </form>
 </div>
+
+<script>
+    jQuery(function($) {
+        $()
+    });
+</script>

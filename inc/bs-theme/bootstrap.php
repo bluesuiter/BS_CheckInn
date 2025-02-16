@@ -1,6 +1,7 @@
 <?php
 
 /* Include the autoloader so we can dynamically include the rest of the classes. */
+require_once(__DIR__ . '/post-types/index.php');
 require_once trailingslashit(dirname(__FILE__)) . 'inc/autoloader.php';
 require_once trailingslashit(dirname(__FILE__)) . 'helper/helper-functions.php';
 
