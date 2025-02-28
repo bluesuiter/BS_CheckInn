@@ -1,7 +1,7 @@
 # Premium Hotel WordPress Theme – Built on Sona Template
-Our Hotel WordPress Theme is designed for modern hotels, resorts, and accommodation businesses looking for a stunning online presence. Developed using the **Sona HTML template**, a beautifully crafted **Bootstrap 4.4.1-based** design originally shared on **ColorLib**, this theme offers a seamless and professional booking experience.\
+Our Hotel WordPress Theme is designed for modern hotels, resorts, and accommodation businesses looking for a stunning online presence. Developed using the **Sona HTML template**, a beautifully crafted **Bootstrap 4.4.1-based** design originally shared on **ColorLib**, this theme offers a seamless and professional booking experience.
 
-It is a child theme of **TwentyThirteen**. Out theme focuses on creating a visually appealing and user-friendly online presence for your hotel. This theme is perfect for resorts, hotels, and accommodation businesses.\
+It is a child theme of **TwentyThirteen**. Out theme focuses on creating a visually appealing and user-friendly online presence for your hotel. This theme is perfect for resorts, hotels, and accommodation businesses.
 
 # Why Choose This Theme?
 🏨 **Elegant & Responsive Design –** Fully mobile-friendly and optimized for all devices.\
