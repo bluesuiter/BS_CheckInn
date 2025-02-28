@@ -8,8 +8,8 @@ It is a child theme of **TwentyThirteen**. Out theme focuses on creating a visua
 ⚡ **Fast & Lightweight –** Built with clean, efficient code for superior performance.\
 📅 **Hotel Booking Ready –** Easily integrate booking plugins for online reservations.\
 🎨 **Customization Made Easy –** Personalize layouts, colors, and typography with ease.\
-🔍 **SEO & Speed Optimized –** Designed to help your hotel website rank higher on search engines.\
+🔍 **SEO & Speed Optimized –** Designed to help your hotel website rank higher on search engines.
 
-Whether you run a luxury hotel, boutique inn, or vacation rental, this WordPress theme delivers a stylish, user-friendly solution to attract more guests and increase bookings.\
+Whether you run a luxury hotel, boutique inn, or vacation rental, this WordPress theme delivers a stylish, user-friendly solution to attract more guests and increase bookings.
 
 # 🚀 Transform your hotel’s website today!
